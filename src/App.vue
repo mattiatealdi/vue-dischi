@@ -23,8 +23,8 @@ export default {
 </script>
 
 <style lang="scss">
-div{
-
+body{
+  background-color: #1E2B3D;
 }
 
 

@@ -27,19 +27,27 @@ export default {
 
 img{
     width: 200px;
-    background-color: #2D3A46
+    height: 100%;
+    
 }
 .card-container{
+    margin: 50px 0;
     color:white;
     border: none;
+    background-color: #2D3A46;
+    min-height: 370px;
+    padding: 20px;
 }
 
 h4{
-    color: gray
+    color: gray;
+    font-size: 20px;
 }
 
+h3{
+    font-size: 25px;
+}
 h3,h4{
     text-align: center;
-    min-height: 40px;
 }
 </style>

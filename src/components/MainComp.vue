@@ -2,8 +2,9 @@
   <main>
       <search 
         @searchGenre= "searching"
+        :cards = "cards"
       />
-      <div class="row mt-20">
+      <div class="row mt-20 wrapper">
         <Card
           v-for="card in filteredMusic"
           :key = "card.id"
@@ -85,7 +86,6 @@ export default {
 
 <style style="scss" scoped>
 main{
-    background-color: black;
     
 }
 .row{
@@ -99,4 +99,5 @@ select{
     padding: 20px 40px;
     margin: 40px 0;
 }
+
 </style>
